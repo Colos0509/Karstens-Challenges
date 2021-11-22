@@ -2,8 +2,9 @@
 
 Player::Player()
 {
-	m_health = 100;
-	m_attackPower = 20;
+	m_health = 0;
+	m_attackPower = 0;
+	m_attack = 0;
 }
 
 void Player::SetHealth(int health)
